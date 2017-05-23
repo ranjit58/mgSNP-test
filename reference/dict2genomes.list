@@ -1,0 +1,10 @@
+#!/bin/bash
+### Import global variables ###
+source mgSNP.config.txt
+###
+
+cut -f 2 ../$DICT | grep "SN:" | cut -f 2 -d ":"> 2
+cut -f 3 ../$DICT | grep "LN:" | cut -f 2 -d ":"> 3
+paste 2 3 > 23
+awk '{print $1 ":1-" $2-1}' 23 > ../${GENOME_LIST}
+rm 2 3 23
