@@ -1,0 +1,16 @@
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf GATK_MULTISNP/Acidaminococcus_sp_D21/Acidaminococcus_sp_D21.vcf
+	--keep COMPARE/Acidaminococcus_sp_D21/ids3
+	--recode
+	--remove-indels
+	--stdout
+
+Keeping individuals in 'keep' list
+After filtering, kept 2 out of 5 Individuals
+Outputting VCF file...
+After filtering, kept 2238909 out of a possible 2238959 Sites
+Run Time = 27.00 seconds
