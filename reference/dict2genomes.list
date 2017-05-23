@@ -1,6 +1,6 @@
 #!/bin/bash
 ### Import global variables ###
-source mgSNP.config.txt
+source ../mgSNP.config.txt
 ###
 
 cut -f 2 ../$DICT | grep "SN:" | cut -f 2 -d ":"> 2
